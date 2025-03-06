@@ -2,14 +2,13 @@
 
 ## Overview
 
-RNGuide Web is a comprehensive resource dedicated to exploring the Random Number Generator (RNG) mechanics in Pokémon games. This website aims to provide detailed insights, guides, and tools to help players understand and utilize RNG for various in-game purposes, such as shiny hunting, IV breeding, and more.
+    RNGuide Web is a comprehensive resource dedicated to exploring the Random Number Generator (RNG) mechanics in Pokémon games. This website aims to provide detailed insights, guides, and tools to help players understand and utilize RNG for various in-game purposes, such as shiny hunting, IV breeding, and more.
 
 ## Features
 
 - In-depth articles and guides on RNG mechanics in Pokémon games.
 - Step-by-step tutorials for RNG manipulation techniques.
 - Tools and calculators to assist with RNG-related activities.
-- Community forums for discussion and support.
 
 ## Installation
 
