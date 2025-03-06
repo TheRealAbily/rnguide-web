@@ -35,6 +35,4 @@ This project has been deployed on the free hosting platform Netlify, allowing us
     > Download [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension to be able to run this project as a local server.
 
 4. Run the web page locally:
-    ```bash
-    Run the server locally.
-    ```
+    > Run the server locally.
