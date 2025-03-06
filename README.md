@@ -21,20 +21,20 @@ This project has been deployed on the free hosting platform Netlify, allowing us
 
 ## Instalation
 
-1. Clone the repository:
+### 1. Clone the repository:
     ```bash
     git clone https://github.com/TheRealAbily/rnguide-web.git
     ```
 
-2. Navigate to the project directory:
+### 2. Navigate to the project directory:
     ```bash
     cd rnguide-web
     ```
 
-3. Download the necessary extension:
+### 3. Download the necessary extension:
     Download [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension to be able to run this project as a local server.
 
-4. Run the web page locally:
+### 4. Run the web page locally:
     ```bash
     Run the server locally.
     ```
