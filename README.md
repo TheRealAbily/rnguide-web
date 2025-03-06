@@ -32,7 +32,7 @@ This project has been deployed on the free hosting platform Netlify, allowing us
     ```
 
 3. Download the necessary extension:
-    Download [https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](Live Server) extension to be able to run this project as a local server.
+    Download [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension to be able to run this project as a local server.
 
 4. Run the web page locally:
     ```bash
