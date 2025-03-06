@@ -12,7 +12,7 @@ RNGuide Web is a comprehensive resource dedicated to exploring the Random Number
 
 ## Execution
 
-    This project has been deployed on the free hosting platform Netlify, allowing users to easily access and explore the site. Thanks to Netlify, you can view the RNGuide Web project at the following link: [https://rnguide-web.netlify.app](https://rnguide-web.netlify.app). Enjoy browsing through our comprehensive resources and tools dedicated to RNG mechanics in Pokémon games!
+This project has been deployed on the free hosting platform Netlify, allowing users to easily access and explore the site. Thanks to Netlify, you can view the RNGuide Web project at the following link: [https://rnguide-web.netlify.app](https://rnguide-web.netlify.app). Enjoy browsing through our comprehensive resources and tools dedicated to RNG mechanics in Pokémon games!
 
 
 > [!TIP]
