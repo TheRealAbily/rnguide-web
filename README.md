@@ -14,8 +14,10 @@ RNGuide Web is a comprehensive resource dedicated to exploring the Random Number
 
 This project has been deployed on the free hosting platform Netlify, allowing users to easily access and explore the site. Thanks to Netlify, you can view the RNGuide Web project at the following link: [https://rnguide-web.netlify.app](https://rnguide-web.netlify.app). Enjoy browsing through our comprehensive resources and tools dedicated to RNG mechanics in Pokémon games!
 
+
 > [!TIP]
 > You can clone this project to be able to access the web information locally.
+
 
 ## Instalation
 
@@ -30,9 +32,7 @@ This project has been deployed on the free hosting platform Netlify, allowing us
     ```
 
 3. Download the necessary extension:
-    ```
     Download [https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](Live Server) extension to be able to run this project as a local server.
-    ```
 
 4. Run the web page locally:
     ```bash
