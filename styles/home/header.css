@@ -6,17 +6,28 @@
 /* General */
 body {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 
     background: linear-gradient(#f2f2f4, #cfd1d0);
 
     display: flex;
     flex-direction: column;
 
-    justify-content: start;
     align-items: center;
 
     overflow: hidden;
+    overflow-y: auto;
+}
+
+/* Wrapper container */
+.wrapper {
+    width: 100%;
+    height: clamp(100vh, 100vh, 100vh);
+
+    display: flex;
+
+    flex-direction: column;
+
 }
 
 /* Header */
