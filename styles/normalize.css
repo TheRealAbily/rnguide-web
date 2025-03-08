@@ -1,5 +1,23 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
+/* All
+   ========================================================================== */
+
+/**
+ * 1. Margin and padding to 0px.
+ * 2. Background and color of selection.
+ */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*::selection {
+    background: inherit;
+    color: inherit;
+}
+
 /* Document
    ========================================================================== */
 
@@ -13,6 +31,7 @@ html {
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
+    font-size: 62.5%;
 }
 
 /* Sections
@@ -24,6 +43,8 @@ html {
 
 body {
     margin: 0;
+
+    font-size: 16px;
 }
 
 /**

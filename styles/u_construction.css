@@ -1,17 +1,4 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-*::selection {
-    background: inherit;
-    color: inherit;
-}
-
-html {
-    font-size: 62.5%;
-}
-
+/* General */
 body {
     width: 100vw;
     height: 100vh;
