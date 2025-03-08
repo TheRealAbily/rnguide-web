@@ -1,6 +1,7 @@
 /* Variables */
 :root {
     --bg-main-color: rgb(100, 211, 255);
+    --text-color: #38341e;
 }
 
 /* General */
@@ -45,7 +46,7 @@ body {
 /* Top header */
 .header__banner {
     width: 100%;
-    height: 70%;
+    height: 12.6rem;
 
     background-color: var(--bg-main-color);
 
@@ -107,10 +108,10 @@ body {
     justify-content: center;
     align-items: center;
 
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-top: 0.2rem solid #000;
+    border-bottom: 0.2rem solid #000;
 
-    outline: 2px solid #fff;
+    outline: 0.2rem solid #fff;
 
     overflow: hidden;
 
@@ -187,6 +188,8 @@ body {
     justify-content: center;
     align-items: center;
 
+    flex-wrap: wrap;
+
     gap: 5rem;
 
     list-style-type: none;
@@ -195,12 +198,12 @@ body {
 .header__nav-ul-button {
     padding-top: 0.2rem;
 
-    width: 13rem;
+    width: 16rem;
     height: 3.5rem;
 
     background: linear-gradient(180deg, #fff, #fff9d7 20%, #fff9d7 60%, #afa56e);
 
-    color: #38341e;
+    color: var(--text-color);
 
     position: relative;
 
@@ -211,7 +214,7 @@ body {
 
     border-radius: 1.25rem;
 
-    outline: 0.2rem solid #38341e;
+    outline: 0.2rem solid var(--text-color);
 
     overflow: hidden;
 
@@ -286,7 +289,7 @@ body {
 }
 
 /* Responsive for mobiles */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
 
     /* Nav and buttons */
     .header__nav-ul-button {
