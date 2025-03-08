@@ -1,0 +1,77 @@
+/* Normal main font */
+@font-face {
+    /* Normal */
+    font-family: 'Roboto Flex';
+    src: url('../../fonts/roboto_flex.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font__main {
+    text-align: center;
+
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Pixel main font */
+@font-face {
+    /* Normal */
+    font-family: 'Pixel Font';
+    src: url('../../fonts/sfpixelate.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /* Bold */
+    font-family: 'Pixel Font';
+    src: url('../../fonts/sfpixelate_bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    /* Italic */
+    font-family: 'Pixel Font';
+    src: url('../../fonts/sfpixelate_oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    /* Bold and italic */
+    font-family: 'Pixel Font';
+    src: url('../../fonts/sfpixelate_bold_oblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+.font__pixel,
+.font__pixel-bold,
+.font__pixel-italic,
+.font__pixel-bold-italic {
+    text-align: center;
+
+    font-family: "Pixel Font", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font__pixel-bold {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.font__pixel-italic {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.font__pixel-bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}

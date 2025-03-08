@@ -23,10 +23,10 @@
     left: 0px;
     top: 0px;
 
-    mask: linear-gradient(#fff 50%, transparent 50%);
+    mask: linear-gradient(#fff 40%, transparent 40%);
     mask-size: 100% 2rem;
 
-    z-index: 10;
+    z-index: 5;
 }
 
 .main::before {
@@ -42,5 +42,34 @@
     left: 0px;
     top: 0px;
 
-    z-index: 20;
+    z-index: 10;
+}
+
+/* Pokeball */
+.main__pokeball {
+    position: absolute;
+
+    right: -8rem;
+    bottom: -12.5rem;
+
+    transform: rotate(-20deg);
+
+    z-index: 3;
+}
+
+.main__pokeball-color {
+    stroke: hsl(0, 0%, 75%);
+}
+
+/* Responsive for mobiles */
+@media screen and (max-width: 750px) {
+
+
+    /* Pokeball */
+    .main__pokeball {
+        right: -15rem;
+        bottom: -16rem;
+
+        transform: scale(0.75) rotate(-20deg);
+    }
 }

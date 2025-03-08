@@ -19,27 +19,6 @@ body {
     overflow: hidden;
 }
 
-.main-font {
-    text-align: center;
-
-    font-family: "Roboto Flex", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:
-        "slnt" 0,
-        "wdth" 100,
-        "GRAD" 0,
-        "XOPQ" 96,
-        "XTRA" 468,
-        "YOPQ" 79,
-        "YTAS" 750,
-        "YTDE" -203,
-        "YTFI" 738,
-        "YTLC" 514,
-        "YTUC" 712;
-}
-
 /* Header */
 .header {
     width: 100%;
@@ -93,7 +72,7 @@ body {
     width: 100%;
     height: 100%;
 
-    background: linear-gradient(to right, var(--bg-main-color) 20%, transparent 50%);
+    background: linear-gradient(to right, var(--bg-main-color) 25%, transparent 50%);
 
     position: absolute;
 
@@ -205,7 +184,7 @@ body {
 .header__nav-ul-button {
     padding-top: 0.2rem;
 
-    width: 11rem;
+    width: 13rem;
     height: 3.5rem;
 
     background: linear-gradient(180deg, #fff, #fff9d7 20%, #fff9d7 60%, #afa56e);
@@ -228,6 +207,8 @@ body {
     box-shadow: 0.25rem 0.25rem 0.35rem 0.05rem #000;
 
     font-size: 1.6rem;
+
+    text-transform: uppercase;
 
     z-index: 140;
 }
@@ -294,7 +275,7 @@ body {
 }
 
 /* Responsive for mobiles */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 
     /* Nav and buttons */
     .header__nav-ul-button {
