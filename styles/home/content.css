@@ -1,0 +1,55 @@
+/* Content */
+.main__container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 20;
+}
+
+/* Side containers */
+.main__container-left,
+.main__container-right {
+    height: 100%;
+
+    display: flex;
+    flex: 1;
+
+    outline: 2px solid black;
+}
+
+/* Main container */
+.main__container-middle {
+    width: 60%;
+    height: 100%;
+
+    outline: 2px solid rgb(255, 0, 0);
+}
+
+/* Responsive for mobile */
+@media screen and (min-width: 901px) and (max-width: 1050px) {
+
+    /* Main container */
+    .main__container-middle {
+        margin-left: 5rem;
+
+        width: 60%;
+    }
+
+    /* Left container */
+    .main__container-left {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    /* Main container */
+    .main__container-middle {
+        width: 80%;
+    }
+}
