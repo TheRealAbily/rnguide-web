@@ -24,12 +24,13 @@ body {
 /* Wrapper container */
 .wrapper {
     width: 100%;
-    height: clamp(100vh, 100vh, 100vh);
+    min-height: 100vh;
 
     display: flex;
 
     flex-direction: column;
 
+    box-sizing: content-box;
 }
 
 /* Header */
