@@ -2,7 +2,36 @@
 :root {
     --bg-main-color: #b81111;
     --text-color: #38341e;
+    --scroll-border: #3a3a3a;
 }
+
+/* HTML */
+html {
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 1.25rem;
+    height: 0.4rem;
+
+    outline: 0.2rem solid var(--scroll-border);
+}
+
+html::-webkit-scrollbar-track {
+    background: #adadad;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #dfdfdf;
+    border-radius: 1rem;
+
+    outline: 0.2rem solid var(--scroll-border);
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: #7a7a7a;
+}
+
 
 /* General */
 body {
@@ -11,6 +40,8 @@ body {
 
     background: linear-gradient(#f2f2f4, #cfd1d0);
 
+    position: relative;
+
     display: flex;
     flex-direction: column;
 
@@ -18,7 +49,6 @@ body {
     align-items: start;
 
     overflow: hidden;
-    overflow-y: auto;
 }
 
 /* Wrapper container */
@@ -31,6 +61,8 @@ body {
     flex-direction: column;
 
     box-sizing: content-box;
+
+    z-index: 0;
 }
 
 /* Header */
@@ -43,6 +75,8 @@ body {
 
     justify-content: center;
     align-items: start;
+
+    z-index: 5;
 }
 
 /* Top header */
@@ -83,6 +117,17 @@ body {
     background-position: right -12rem bottom -4.5rem;
     background-repeat: no-repeat;
     background-size: auto;
+
+    position: relative;
+
+    z-index: 100;
+}
+
+.header__banner-right {
+    background: url("../../images/ui/right_banner.png");
+    background-position: right 0px bottom -10rem;
+    background-repeat: no-repeat;
+    background-size: 80%;
 
     position: relative;
 
@@ -174,8 +219,8 @@ body {
     left: 0px;
     top: 0px;
 
-    mask-image: url('../images/ui/texture_diamonds.png');
-    -webkit-mask-image: url('../images/ui/texture_diamonds.png');
+    /* mask-image: url('../images/ui/texture_diamonds.png');
+    -webkit-mask-image: url('../images/ui/texture_diamonds.png'); */
 
     mask-size: 1rem;
     -webkit-mask-size: 1rem;
@@ -302,6 +347,18 @@ body {
 /* Responsive for tablets */
 @media screen and (min-width: 901px) and (max-width: 1050px) {
 
+    /* Scrollbar */
+    html::-webkit-scrollbar {
+        width: 1rem;
+        height: 0.3rem;
+
+        outline: 0.1rem solid #1f1f1f;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        outline: 0.1rem solid #1f1f1f;
+    }
+
     /* Header banner */
     .header__banner-logo {
         height: 72%;
@@ -310,6 +367,15 @@ body {
 
 /* Responsive for mobiles */
 @media screen and (max-width: 900px) {
+
+    /* Scrollbar */
+    html::-webkit-scrollbar {
+        display: none;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        display: none;
+    }
 
     /* Nav and buttons */
     .header__nav-ul-button {
@@ -337,7 +403,7 @@ body {
 
     /* Header banner */
     .header__banner-logo {
-        height: 70%;
+        height: calc(100% * 0.6);
     }
 
     .header__banner-left {
@@ -348,14 +414,5 @@ body {
 
     .header__banner-right {
         display: none;
-    }
-}
-
-/* Responsive for PC */
-@media screen and (min-width: 751px) {
-
-    /* Wrapper container */
-    .wrapper {
-        width: calc(100% - 1.75rem);
     }
 }

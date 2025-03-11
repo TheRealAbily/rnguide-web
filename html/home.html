@@ -8,17 +8,20 @@
     <!-- Links -->
     <link rel="stylesheet" href="../styles/others/normalize.css">
     <link rel="stylesheet" href="../styles/others/fonts.css">
+    <link rel="stylesheet" href="../styles/others/effects.css">
     <link rel="stylesheet" href="../styles/home/header.css">
     <link rel="stylesheet" href="../styles/home/main.css">
     <link rel="stylesheet" href="../styles/home/content.css">
+    <link rel="stylesheet" href="../styles/home/aside.css">
     <link rel="stylesheet" href="../styles/home/footer.css">
     <link rel="icon" type="image/png" href="../images/ui/icon.png">
 
     <!-- Audio -->
-    <audio id="sfx__press-button-a" src="../sounds/press-button-a.wav" preload="auto"></audio>
+    <audio id="sfx__press-button-a" src="../sounds/press_button_a.wav" preload="auto"></audio>
 
-    <!-- Script -->
+    <!-- Scripts -->
     <script src="../javascript/sfx.js" prefer></script>
+    <script src="../javascript/grow_img.js" prefer></script>
 
     <!-- Meta -->
     <meta charset="UTF-8">
@@ -26,7 +29,7 @@
 
 </head>
 
-<body>
+<body id="body">
     <!-- Wrapper for main content -->
     <div class="wrapper">
         <!-- Header -->
@@ -72,6 +75,7 @@
                 </ul>
             </nav>
         </header>
+        <!-- Main -->
         <main class="main">
             <!-- Pokeball -->
             <svg class="main__pokeball" width="500" height="500" viewBox="0 0 100 100"
@@ -270,7 +274,39 @@
                         </div>
                     </div>
                 </div>
-                <div class="main__container-right"></div>
+                <div class="main__container-right">
+                    <aside class="aside">
+                        <!-- Pokeball -->
+                        <svg class="aside__pokeball" xmlns="http://www.w3.org/2000/svg" viewBox="0.0 0.0 150.0 150.0">
+                            <g transform="matrix(1, 0, 0, 1, -224.353989, -76.931313)">
+                                <path class="aside__pokeball-color-2" fill="none"
+                                    d="M 253.822 152.753 C 253.822 152.753 256.138 194.817 298.974 196.939 C 341.81 199.061 343.932 155.261 344.704 151.981 C 345.476 148.701 317.111 151.981 317.111 151.981 C 317.111 151.981 316.533 168.189 300.324 168.575 C 284.115 168.961 281.801 152.946 281.801 152.946 L 253.822 152.753 Z">
+                                </path>
+                                <ellipse class="aside__pokeball-color-2" fill="none" cx="299.972" cy="152.133"
+                                    rx="16.656" ry="16.656"></ellipse>
+                                <path class="aside__pokeball-color-2" fill="none"
+                                    d="M 253.566 151.113 C 253.566 151.113 255.882 109.049 298.718 106.927 C 341.554 104.805 343.676 148.605 344.448 151.885 C 345.22 155.165 316.855 151.885 316.855 151.885 C 316.855 151.885 316.277 135.677 300.068 135.291 C 283.859 134.905 281.545 150.92 281.545 150.92 L 253.566 151.113 Z">
+                                </path>
+                                <circle class="aside__pokeball-color" cx="300.142" cy="151.849" r="45" fill="none"
+                                    stroke="black" stroke-width="5"></circle>
+                                <circle class="aside__pokeball-color" cx="300.142" cy="151.849" r="17.5" fill="none"
+                                    stroke="black" stroke-width="5"></circle>
+                                <path class="aside__pokeball-color" d="M 255.142 151.849 L 285.142 151.849"
+                                    stroke="black" stroke-width="5"></path>
+                                <path class="aside__pokeball-color" d="M 316.142 151.849 L 345.142 151.849"
+                                    stroke="black" stroke-width="5"></path>
+                            </g>
+                        </svg>
+
+                        <!-- Shadow -->
+                        <div class="aside__shadow"></div>
+
+                        <!-- Title -->
+                        <section class="content__container-title">
+                            <h2 class="content__title font__pixel-bold">¡Aún más Pokémon!</h2>
+                        </section>
+                    </aside>
+                </div>
             </div>
         </main>
     </div>
