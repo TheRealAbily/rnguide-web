@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-    --bg-main-color: rgb(100, 211, 255);
+    --bg-main-color: #b81111;
     --text-color: #38341e;
 }
 
@@ -67,6 +67,15 @@ body {
 
     justify-content: center;
     align-items: center;
+}
+
+.header__banner-left {
+    justify-content: start;
+}
+
+.header__banner-logo {
+    width: auto;
+    height: 85%;
 }
 
 .header__banner-right {
@@ -290,6 +299,15 @@ body {
     box-shadow: inset -0.2rem -0.2rem 1rem 0.5rem rgba(255, 255, 255, 0.25);
 }
 
+/* Responsive for tablets */
+@media screen and (min-width: 901px) and (max-width: 1050px) {
+
+    /* Header banner */
+    .header__banner-logo {
+        height: 72%;
+    }
+}
+
 /* Responsive for mobiles */
 @media screen and (max-width: 900px) {
 
@@ -310,6 +328,26 @@ body {
         padding-top: 0.2rem;
 
         font-size: 1.8rem;
+    }
+
+    /* Main container */
+    .main__container-middle {
+        width: 80%;
+    }
+
+    /* Header banner */
+    .header__banner-logo {
+        height: 70%;
+    }
+
+    .header__banner-left {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+    .header__banner-right {
+        display: none;
     }
 }
 
